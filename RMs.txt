@@ -1,0 +1,57 @@
+==========================================
+  PROJETO: PASSA A BOLA (RADAR DA BOLA)
+==========================================
+
+Grupo: Calçada LTDA
+
+INTEGRANTES:
+-----------
+- Caio M. Lins         - RM 559805
+- Murilo B. Gonzalez   - RM 566199
+- Bernardo G. Lozório  - RM 564943
+
+INFORMAÇÕES DO PROJETO:
+-----------------------
+Sprint: 4
+Data de Entrega: Novembro 2025
+Disciplinas:
+  - Front-end Design
+  - Web Development
+  - Computational Thinking with Python
+
+DESCRIÇÃO:
+----------
+Plataforma completa para conectar jogadoras de futebol feminino,
+olheiros, clubes e fãs, promovendo visibilidade e oportunidades
+no futebol feminino brasileiro.
+
+TECNOLOGIAS UTILIZADAS:
+-----------------------
+Frontend:
+- React 18+ com Vite
+- TailwindCSS
+- React Router DOM
+- React Icons
+- JWT Decode
+
+Backend:
+- Python 3.10+
+- FastAPI
+- Pydantic v2
+- JWT (python-jose)
+- Bcrypt (passlib)
+- Sistema de Persistência em JSON/TXT
+
+REPOSITÓRIO GITHUB:
+-------------------
+https://github.com/MuriloBezChleba/Sprint4--Passa-a-bola.git
+
+CONTATO:
+--------
+Email: contato@passabola.com
+GitHub: @MuriloBezChleba
+
+==========================================
+  Desenvolvido com 💚 por Calçada LTDA
+==========================================
+
