@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "1",
+    "nome": "Usuária Teste",
+    "email": "teste@passabola.com",
+    "hashed_password": "$2b$12$GbpjMZLpyMOeXR82hpyqpuNcj5KludHT9CIQkh3aL6ykftKC3EHfC",
+    "role": "jogadora_amadora",
+    "data_criacao": "2025-11-05T00:00:00"
+  },
+  {
+    "nome": "Murilo",
+    "email": "murilogbc2006@gmail.com",
+    "hashed_password": "$2b$12$lQbgBgDuicbhHK0SmKBKceZaz91ysISrEID6HIPQZij4cCRNKlTqK",
+    "role": "jogadora_amadora",
+    "data_criacao": "2025-11-05 22:12:53.586170"
+  }
+]

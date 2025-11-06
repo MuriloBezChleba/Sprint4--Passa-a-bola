@@ -1,0 +1,182 @@
+[
+  {
+    "id": "1",
+    "titulo": "Peneira Corinthians Feminino 2025",
+    "descricao": "Grande oportunidade para jogadoras amadoras e semi-profissionais mostrarem seu talento para os olheiros do Corinthians.",
+    "tipo": "Peneira",
+    "data": "2025-12-15",
+    "horario": "09:00",
+    "local": "Centro de Treinamento Dr. Joaquim Grava",
+    "endereco": "Av. João Batista Leme, s/n - Jardim Caxingui, São Paulo - SP",
+    "latitude": -23.5089,
+    "longitude": -46.7697,
+    "vagas": 200,
+    "vagas_disponiveis": 147,
+    "categoria": "Sub-20",
+    "organizador": "Corinthians",
+    "contato": "peneiras@corinthians.com.br",
+    "requisitos": [
+      "Idade entre 15-20 anos",
+      "Documento com foto",
+      "Atestado médico"
+    ],
+    "inscricoes_abertas": true
+  },
+  {
+    "id": "2",
+    "titulo": "Torneio Feminino Zona Leste",
+    "descricao": "Torneio amador de futebol feminino para incentivar a prática esportiva na Zona Leste de São Paulo.",
+    "tipo": "Torneio",
+    "data": "2025-11-20",
+    "horario": "08:00",
+    "local": "Complexo Esportivo Cidade Líder",
+    "endereco": "Rua João Evangelista, 1234 - Cidade Líder, São Paulo - SP",
+    "latitude": -23.5645,
+    "longitude": -46.5012,
+    "vagas": 16,
+    "vagas_disponiveis": 6,
+    "categoria": "Livre",
+    "organizador": "Prefeitura de São Paulo",
+    "contato": "esportes@prefeitura.sp.gov.br",
+    "requisitos": [
+      "Equipe cadastrada",
+      "Taxa de inscrição: R$ 300"
+    ],
+    "inscricoes_abertas": true
+  },
+  {
+    "id": "3",
+    "titulo": "Peneira Santos FC Feminino",
+    "descricao": "O Santos abre as portas para descobrir novos talentos do futebol feminino.",
+    "tipo": "Peneira",
+    "data": "2025-11-28",
+    "horario": "14:00",
+    "local": "CT Rei Pelé",
+    "endereco": "R. Princesa Isabel, s/n - Vila Belmiro, Santos - SP",
+    "latitude": -23.9519,
+    "longitude": -46.3326,
+    "vagas": 150,
+    "vagas_disponiveis": 89,
+    "categoria": "Sub-17",
+    "organizador": "Santos FC",
+    "contato": "futebol.feminino@santosfc.com.br",
+    "requisitos": [
+      "Idade entre 14-17 anos",
+      "RG e CPF",
+      "Autorização dos pais"
+    ],
+    "inscricoes_abertas": true
+  },
+  {
+    "id": "4",
+    "titulo": "Festival de Futebol Feminino Brasilândia",
+    "descricao": "Evento comunitário para promover o futebol feminino na periferia de São Paulo.",
+    "tipo": "Festival",
+    "data": "2025-12-05",
+    "horario": "10:00",
+    "local": "Campo do Jardim Vista Alegre",
+    "endereco": "Av. Elísio Teixeira Leite, 4321 - Brasilândia, São Paulo - SP",
+    "latitude": -23.4792,
+    "longitude": -46.6897,
+    "vagas": 300,
+    "vagas_disponiveis": 212,
+    "categoria": "Livre",
+    "organizador": "Instituto Passa a Bola",
+    "contato": "contato@passabola.org",
+    "requisitos": [
+      "Gratuito",
+      "Inscrição online"
+    ],
+    "inscricoes_abertas": true
+  },
+  {
+    "id": "5",
+    "titulo": "Peneira Palmeiras Feminino",
+    "descricao": "Oportunidade única para integrar as categorias de base do Palmeiras.",
+    "tipo": "Peneira",
+    "data": "2025-12-10",
+    "horario": "08:30",
+    "local": "Centro de Formação de Atletas",
+    "endereco": "Rod. Presidente Dutra, Km 174 - Bairro da Água Branca, Guarulhos - SP",
+    "latitude": -23.4356,
+    "longitude": -46.5012,
+    "vagas": 180,
+    "vagas_disponiveis": 98,
+    "categoria": "Sub-15",
+    "organizador": "Palmeiras",
+    "contato": "peneiras@palmeiras.com.br",
+    "requisitos": [
+      "Idade entre 13-15 anos",
+      "Certidão de nascimento",
+      "Comprovante de residência"
+    ],
+    "inscricoes_abertas": true
+  },
+  {
+    "id": "6",
+    "titulo": "Copa Feminina da Integração",
+    "descricao": "Torneio que reúne equipes amadoras de todo o estado de São Paulo.",
+    "tipo": "Torneio",
+    "data": "2026-01-18",
+    "horario": "09:00",
+    "local": "Estádio Municipal de Campinas",
+    "endereco": "Av. Heitor Penteado, 1234 - Taquaral, Campinas - SP",
+    "latitude": -22.8741,
+    "longitude": -47.0542,
+    "vagas": 24,
+    "vagas_disponiveis": 14,
+    "categoria": "Adulto",
+    "organizador": "Federação Paulista de Futebol",
+    "contato": "fpf@fpf.org.br",
+    "requisitos": [
+      "Equipe federada",
+      "Taxa de inscrição: R$ 500"
+    ],
+    "inscricoes_abertas": true
+  },
+  {
+    "id": "7",
+    "titulo": "Clínica de Futebol com Marta",
+    "descricao": "Evento especial com a lenda Marta ensinando técnicas e compartilhando experiências.",
+    "tipo": "Clínica",
+    "data": "2026-02-22",
+    "horario": "10:00",
+    "local": "Arena Pacaembu",
+    "endereco": "Praça Charles Miller, s/n - Pacaembu, São Paulo - SP",
+    "latitude": -23.5456,
+    "longitude": -46.6631,
+    "vagas": 100,
+    "vagas_disponiveis": 23,
+    "categoria": "Livre",
+    "organizador": "Instituto Marta",
+    "contato": "clinica@institutomarta.org",
+    "requisitos": [
+      "Inscrição paga: R$ 150",
+      "Idade mínima: 12 anos"
+    ],
+    "inscricoes_abertas": true
+  },
+  {
+    "id": "8",
+    "titulo": "Peneira São Paulo FC Feminino",
+    "descricao": "O tricolor paulista busca novos talentos para suas categorias de base.",
+    "tipo": "Peneira",
+    "data": "2026-01-05",
+    "horario": "13:00",
+    "local": "CT de Cotia",
+    "endereco": "Av. Jorge Cury, 1450 - Cotia - SP",
+    "latitude": -23.6034,
+    "longitude": -46.9189,
+    "vagas": 200,
+    "vagas_disponiveis": 156,
+    "categoria": "Sub-18",
+    "organizador": "São Paulo FC",
+    "contato": "base.feminina@saopaulofc.net",
+    "requisitos": [
+      "Idade entre 16-18 anos",
+      "Documentos pessoais",
+      "Comprovante escolar"
+    ],
+    "inscricoes_abertas": true
+  }
+]

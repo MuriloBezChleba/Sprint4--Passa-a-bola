@@ -6,6 +6,7 @@ Desenvolvido por: Calçada LTDA
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from contextlib import asynccontextmanager
 import sys
 from pathlib import Path
 
@@ -18,8 +19,36 @@ from backend.routes import auth, players, events
 # Importar sistema de persistência
 from utils.persistence import registrar_log, carregar_backup_json, salvar_backup_json
 
-# Criar aplicação FastAPI
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """
+    Gerenciador de ciclo de vida da aplicação (lifespan)
+    Substitui os deprecados on_event("startup") e on_event("shutdown")
+    """
+    # Startup
+    try:
+        registrar_log("=" * 60)
+        registrar_log("🚀 API Passa a Bola iniciada com sucesso!")
+        registrar_log("=" * 60)
+        
+        # Verificar e criar arquivos JSON iniciais se não existirem
+        inicializar_dados_exemplo()
+        
+    except Exception as e:
+        registrar_log(f"✗ ERRO ao iniciar aplicação: {str(e)}")
+    
+    yield  # Aplicação rodando
+    
+    # Shutdown
+    registrar_log("=" * 60)
+    registrar_log("🛑 API Passa a Bola encerrada")
+    registrar_log("=" * 60)
+
+
+# Criar aplicação FastAPI com lifespan
 app = FastAPI(
+    lifespan=lifespan,
     title="Passa a Bola API",
     description="""
     ## Backend completo para a plataforma Passa a Bola
@@ -75,34 +104,6 @@ app.add_middleware(
 app.include_router(auth.router)
 app.include_router(players.router)
 app.include_router(events.router)
-
-
-@app.on_event("startup")
-async def startup_event():
-    """
-    Evento executado ao iniciar a aplicação
-    Inicializa arquivos JSON com dados de exemplo se não existirem
-    """
-    try:
-        registrar_log("=" * 60)
-        registrar_log("🚀 API Passa a Bola iniciada com sucesso!")
-        registrar_log("=" * 60)
-        
-        # Verificar e criar arquivos JSON iniciais se não existirem
-        inicializar_dados_exemplo()
-        
-    except Exception as e:
-        registrar_log(f"✗ ERRO ao iniciar aplicação: {str(e)}")
-
-
-@app.on_event("shutdown")
-async def shutdown_event():
-    """
-    Evento executado ao desligar a aplicação
-    """
-    registrar_log("=" * 60)
-    registrar_log("🛑 API Passa a Bola encerrada")
-    registrar_log("=" * 60)
 
 
 @app.get("/", tags=["Root"])
@@ -181,4 +182,3 @@ def inicializar_dados_exemplo():
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
-

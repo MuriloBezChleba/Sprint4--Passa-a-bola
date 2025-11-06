@@ -1,0 +1,73 @@
+[2025-11-05 21:59:22] ==================================================
+[2025-11-05 21:59:22] Sistema de Persistência Iniciado
+[2025-11-05 21:59:22] Passa a Bola - Backend API
+[2025-11-05 21:59:22] Desenvolvido por: Calçada LTDA
+[2025-11-05 21:59:22] ==================================================
+[2025-11-05 21:59:24] ============================================================
+[2025-11-05 21:59:24] 🚀 API Passa a Bola iniciada com sucesso!
+[2025-11-05 21:59:24] ============================================================
+[2025-11-05 21:59:24] ⚠ Arquivo de backup não encontrado: users
+[2025-11-05 21:59:24] ⚠ Arquivo de backup não encontrado: jogadoras
+[2025-11-05 21:59:24] ⚠ Arquivo de backup não encontrado: eventos
+[2025-11-05 21:59:24] ✓ Backup salvo: jogadoras (12 registros)
+[2025-11-05 21:59:24] ✓ 12 jogadoras importadas do frontend
+[2025-11-05 21:59:24] ✓ Backup salvo: eventos (8 registros)
+[2025-11-05 21:59:24] ✓ 8 eventos importados do frontend
+[2025-11-05 21:59:24] ✓ Backup salvo: users (1 registros)
+[2025-11-05 21:59:24] ✓ Usuário de teste criado: teste@passabola.com / senha123
+[2025-11-05 21:59:43] ============================================================
+[2025-11-05 21:59:43] 🛑 API Passa a Bola encerrada
+[2025-11-05 21:59:43] ============================================================
+[2025-11-05 21:59:51] ============================================================
+[2025-11-05 21:59:51] 🚀 API Passa a Bola iniciada com sucesso!
+[2025-11-05 21:59:51] ============================================================
+[2025-11-05 21:59:51] ✓ Backup carregado: users (1 registros)
+[2025-11-05 21:59:51] ✓ Backup carregado: jogadoras (12 registros)
+[2025-11-05 21:59:51] ✓ Backup carregado: eventos (8 registros)
+[2025-11-05 22:01:05] ============================================================
+[2025-11-05 22:01:05] 🛑 API Passa a Bola encerrada
+[2025-11-05 22:01:05] ============================================================
+[2025-11-05 22:01:47] ============================================================
+[2025-11-05 22:01:47] 🚀 API Passa a Bola iniciada com sucesso!
+[2025-11-05 22:01:47] ============================================================
+[2025-11-05 22:01:47] ✓ Backup carregado: users (1 registros)
+[2025-11-05 22:01:47] ✓ Backup carregado: jogadoras (12 registros)
+[2025-11-05 22:01:47] ✓ Backup carregado: eventos (8 registros)
+[2025-11-05 22:01:59] ============================================================
+[2025-11-05 22:01:59] 🛑 API Passa a Bola encerrada
+[2025-11-05 22:01:59] ============================================================
+[2025-11-05 22:02:01] ============================================================
+[2025-11-05 22:02:01] 🚀 API Passa a Bola iniciada com sucesso!
+[2025-11-05 22:02:01] ============================================================
+[2025-11-05 22:02:01] ✓ Backup carregado: users (1 registros)
+[2025-11-05 22:02:01] ✓ Backup carregado: jogadoras (12 registros)
+[2025-11-05 22:02:01] ✓ Backup carregado: eventos (8 registros)
+[2025-11-05 22:12:53] ✓ Backup carregado: users (1 registros)
+[2025-11-05 22:12:53] ✓ Backup salvo: users (2 registros)
+[2025-11-05 22:12:53] ✓ Novo usuário registrado: murilogbc2006@gmail.com (jogadora_amadora)
+[2025-11-05 22:13:10] ✓ Backup carregado: users (2 registros)
+[2025-11-05 22:13:11] ✓ Login bem-sucedido: murilogbc2006@gmail.com
+[2025-11-05 22:13:11] ✓ Backup carregado: jogadoras (12 registros)
+[2025-11-05 22:13:11] ✓ Listagem de jogadoras: 12 registros
+[2025-11-05 22:13:11] ✓ Backup carregado: jogadoras (12 registros)
+[2025-11-05 22:13:11] ✓ Listagem de jogadoras: 12 registros
+[2025-11-05 22:13:11] ✓ Backup carregado: eventos (8 registros)
+[2025-11-05 22:13:11] ✓ Listagem de eventos: 8 registros
+[2025-11-05 22:13:11] ✓ Backup carregado: eventos (8 registros)
+[2025-11-05 22:13:11] ✓ Listagem de eventos: 8 registros
+[2025-11-05 23:35:02] ✓ Backup carregado: jogadoras (12 registros)
+[2025-11-05 23:35:02] ✓ Listagem de jogadoras: 12 registros
+[2025-11-05 23:35:02] ✓ Backup carregado: jogadoras (12 registros)
+[2025-11-05 23:35:02] ✓ Listagem de jogadoras: 12 registros
+[2025-11-05 23:35:02] ✓ Backup carregado: eventos (8 registros)
+[2025-11-05 23:35:02] ✓ Listagem de eventos: 8 registros
+[2025-11-05 23:35:02] ✓ Backup carregado: eventos (8 registros)
+[2025-11-05 23:35:02] ✓ Listagem de eventos: 8 registros
+[2025-11-05 23:35:37] ✓ Backup carregado: jogadoras (12 registros)
+[2025-11-05 23:35:37] ✓ Listagem de jogadoras: 12 registros
+[2025-11-05 23:35:37] ✓ Backup carregado: jogadoras (12 registros)
+[2025-11-05 23:35:37] ✓ Listagem de jogadoras: 12 registros
+[2025-11-05 23:35:37] ✓ Backup carregado: eventos (8 registros)
+[2025-11-05 23:35:37] ✓ Listagem de eventos: 8 registros
+[2025-11-05 23:35:37] ✓ Backup carregado: eventos (8 registros)
+[2025-11-05 23:35:37] ✓ Listagem de eventos: 8 registros
